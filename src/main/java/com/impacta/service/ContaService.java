@@ -17,10 +17,16 @@ public class ContaService {
 
     private static List<Endereco> enderecos;
 
-    static{
+//    static{
+//        contas = new ArrayList<>(List.of(new Conta(1L, "Renato Lessa", "Renato",
+//                "2023-10-08", 3030303030L, 93939399393L, "renato.lessa@gmail.com", enderecos)));
+//
+//    }
+
+    static {
         contas = new ArrayList<>(List.of(new Conta(1L, "Renato Lessa", "Renato",
                 "2023-10-08", 3030303030L, 93939399393L, "renato.lessa@gmail.com", enderecos)));
-
+        // address = new ArrayList<>(List.of(new Address(1)));
     }
 
     public List<Conta> listAll() {

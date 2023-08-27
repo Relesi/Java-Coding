@@ -19,7 +19,6 @@ import java.util.List;
 public class ContaController {
 
     private final DataUtil dataUtil;
-
     private final ContaService contaService;
 
     @GetMapping("listar-todas-contas")

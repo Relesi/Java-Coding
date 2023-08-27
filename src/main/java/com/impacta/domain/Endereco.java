@@ -10,11 +10,11 @@ import lombok.Data;
 public class Endereco {
 
     private String nomeRua;
-//    private int numero;
-//    private String cep;
-//    private String cidade;
-//    private String estado;
-//    private String pais;
+    private int numero;
+    private String cep;
+    private String cidade;
+    private String estado;
+    private String pais;
 
     @JsonIgnore
     private Conta conta;
